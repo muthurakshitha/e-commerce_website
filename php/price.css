@@ -1,0 +1,133 @@
+.main{
+	display:flex;
+	flex-direction:row;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+.form{
+	margin-top:30px;
+	display:flex;
+	flex-direction:row;
+   
+}
+
+.img{
+	height:300px; 
+}
+
+.car{
+	margin-left:30px;
+}
+
+body {
+    background: rgb(203, 240, 135);
+    font-family: "Nunito", sans-serif;
+}
+
+.comment-form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 30px;
+	
+	background-color: black;
+	color: white;
+  }
+  
+  .comment-form label {
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  .comment-form input[type="text"],
+  .comment-form textarea,
+  .comment-form select {
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+  }
+  
+  .comment-form textarea {
+	height: 100px;
+  }
+  
+  .comment-form input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+  }
+  
+  .comment {
+	
+	background-color: white;
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  }
+  
+  .comment h3 {
+	margin-top: 0;
+  }
+  
+  .comment p.rating {
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  
+	  .comment .rating {
+		color: #FFC107;
+	  }
+  
+	  .comment p.rating {
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  .comment p.rating .star-rating {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	color: #FFC107; /* Change this to the color of your choice */
+  }
+  
+  .comment p.rating .star-rating.filled {
+	color: #FFC107; /* Change this to the filled color of your choice */
+  }
+  
+  .out{
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+  }
+
+  h2{
+	border-left: 5px solid green;
+	padding-left: 10px;
+  }
+
+  .dp1{
+	width: fit-content;
+	margin-top: 20px;
+  }
+
+  .raks{
+	display: flex;
+	flex-direction: row;
+	
+  }
+
+  .raks button,#quantity{
+	margin-left: 20px;
+  }

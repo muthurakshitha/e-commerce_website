@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX Example</title>
+</head>
+<body>
+
+    <div id="error-message"></div>
+
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'file.php');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    document.getElementById('status').innerHTML='File found';
+                    
+                    console.log(xhr.responseText);
+                } else {
+                    document.getElementById('status').innerHTML='OOPS... Error';
+                    document.getElementById('error').innerHTML='File not found';
+                    document.getElementById('error-message').innerHTML = 'Error: ' + xhr.status;
+                }
+            }
+        };
+        xhr.send('param1=value1&param2=value2');
+    </script>
+<center><h1 id="status" style="color: red;"></h1>
+    <div id="error-message"></div>
+    <div id="error"></div></center>
+</body>
+</html>

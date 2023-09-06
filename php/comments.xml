@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comments>
+	<comment id="1">
+		<product>
+			Eggs
+		</product>
+		<user>
+			hbhvnr
+		</user>
+		<text>
+			blahhh
+		</text>
+		<rating>
+			3
+		</rating>
+	</comment>
+	<comment id="2">
+		<product>
+			Eggs
+		</product>
+		<user>
+			Sandy
+		</user>
+		<text>
+			jgjhgjyhg
+		</text>
+		<rating>
+			1
+		</rating>
+	</comment>
+	<comment id="3">
+		<product>
+			Eggs
+		</product>
+		<user>
+			madhu
+		</user>
+		<text>
+			tasty eggs!
+		</text>
+		<rating>
+			5
+		</rating>
+	</comment>
+	<comment id="5">
+		<product>
+			Milk
+		</product>
+		<user>
+			Rakshu
+		</user>
+		<text>
+			Very good product
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+	<comment id="6">
+		<product>
+			Honey
+		</product>
+		<user>
+			hi
+		</user>
+		<text>
+			good
+		</text>
+		<rating>
+			3
+		</rating>
+	</comment>
+	<comment id="7">
+		<product>
+			Eggs
+		</product>
+		<user>
+			hi
+		</user>
+		<text>
+			bad
+		</text>
+		<rating>
+			1
+		</rating>
+	</comment>
+	<comment id="8">
+		<product>
+			Eggs
+		</product>
+		<user>
+			smrithi
+		</user>
+		<text>
+			veryy good product
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+	<comment id="9">
+		<product>
+			Wheat
+		</product>
+		<user>
+			Muthu
+		</user>
+		<text>
+			Good
+		</text>
+		<rating>
+			2
+		</rating>
+	</comment>
+<comment id="10"><product>Guava</product><user>Sandy</user><text>good</text><rating>4</rating></comment><comment id="11"><product>Coconut</product><user>Nikhitha</user><text>good</text><rating>4</rating></comment><comment id="12"><product>Eggs</product><user>Rakshu</user><text>good</text><rating>3</rating></comment></comments>

@@ -1,0 +1,161 @@
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    }
+    footer a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    footer a:hover {
+    color: rgb(48, 164, 13);
+    text-decoration: none;
+    }
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        
+      }
+      
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      .card-header {
+        background-color: #000000;
+        color: black;
+        padding: 10px;
+        font-size: 18px;
+      }
+      
+      .card-body {
+        padding: 10px;
+        background-color: black;
+      }
+      
+      .card-body p {
+        font-size: 16px;
+        line-height: 1.6;
+        color:white;
+      } 
+    .heading{
+    font-weight: 500;
+    font-size: 2.0em;
+    
+    border-left: 6px solid #00822b;
+    padding-left: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    .blurb h3 {
+    color: #000000;
+    font-weight: 100;
+    font-size: 2.5rem;
+    }
+    
+    .blurb p {
+    color: #000000;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    }
+    
+    .content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    
+    #mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;  
+    background-color: black; 
+    height: 90px; 
+    }
+    
+    #hi{
+    margin-top: 80px;
+    padding: 0;
+    }
+    
+    #logo{
+    margin-left: 10px;
+    }
+    
+    #mainNavbar .nav-link {
+    color: white;
+    }
+    
+    #mainNavbar .nav-link:hover {
+    color: #a2ea1c;
+    }
+    
+    #mainNavbar .navbar-brand {
+    color: #a2ea1c;
+    font-size: 1.5rem;
+    }
+    
+    #headingGroup span {
+    color: #EA1C2C;
+    }
+    
+    #headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    }
+    
+    .navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+    }
+	
+    
+
+
+h1{
+    margin-left: 50px;
+    font-size: 50px;
+}
+body{
+    background-color:  rgb(203, 240, 135);
+}
+.hi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.hi a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-size: 40px;
+
+  margin-right: 50px;
+}
+
+.hi a:hover{
+    color: #4CAF50;
+}
+.dp{
+    background-color:  rgb(203, 240, 135);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#login{
+  margin-right: 20px;
+}
+
+
+
